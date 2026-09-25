@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:context=".GreenhouseActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="@color/app_background">
+
+            <ImageView
+                android:id="@+id/backGreenhouse"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="Back"
+                android:src="@drawable/ic_lessthan"
+                app:tint="@color/app_text" />
+
+            <TextView
+                android:id="@+id/greenhouseHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingStart="80dp"
+                android:text="@string/greenhouse_title"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/greenhouseConnection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/greenhouse_connection_title"
+                android:textColor="@color/app_text"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greenhouse_desc"
+                android:textColor="@color/app_text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="@drawable/edit_text_border"
+            android:padding="5dp"
+            android:layout_margin="10dp">
+
+<!--            <TextView-->
+<!--                android:id="@+id/connectGreenhouseBt"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:padding="15dp"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textColor="@color/app_text"-->
+<!--                android:clickable="true"-->
+<!--                android:foreground="?attr/selectableItemBackground"-->
+<!--                android:text="@string/connect_greenhouse_label" />-->
+
+            <TextView
+                android:id="@+id/greenhouseInfoBt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/app_text"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:text="@string/greenhouse_info_label"/>
+
+            <TextView
+                android:id="@+id/leaveGreenhouseBt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:textColor="@color/app_text"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="100dp"
+                android:text="@string/leave_greenhouse_label" />
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

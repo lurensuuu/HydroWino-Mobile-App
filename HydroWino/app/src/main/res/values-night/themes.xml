@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HydroWino" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="colorOnSurface">@color/app_text</item>
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- light icons -->
+    </style>
+
+    <style name="CustomAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="backgroundTint">@color/dialog_background</item>
+        <item name="android:textColorPrimary">@color/app_text</item> <!-- Title & Message -->
+        <item name="android:textColorSecondary">@color/app_text</item>
+    </style>
+
+</resources>

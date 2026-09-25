@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">HydroWino</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nutrients">Nutrients</string>
+
+    <string name="Language">Language</string>
+    <string name="my_Plants">My Plants</string>
+    <string name="batch_history">Batch History</string>
+    <string name="Devices_and_Sensor">Devices and Sensor</string>
+    <string name="Notification_and_Alerts">Notification and Alerts</string>
+    <string name="Growth">Growth</string>
+    <string name="growth_details">Growth Details</string>
+    <string name="week">Week</string>
+    <string name="day">Day</string>
+    <string name="Display">Display</string>
+    <string name="Privacy_and_Security">Privacy and Security</string>
+    <string name="Logout">Logout</string>
+    <string name="water">Water Level</string>
+    <string name="water_temp">Water Temperature</string>
+    <string name="tds">Total Dissolved Solids</string>
+    <string name="Temperature">Room Temperature</string>
+    <string name="Humidity">Humidity</string>
+    <string name="PH_Level">pH Level</string>
+    <string name="loginquote">Grow smarter. Plant better. Harvest efficiently.</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="JoinUs">Dont have an account? Join us</string>
+    <string name="invalid_email_password">Email or Password is invalid</string>
+    <string name="email_not_verified">Please verify your email first. Check your Email.</string>
+
+    <!-- Register -->
+    <string name="regQuote">Discover HydroWino—monitor, manage, and grow healthier plants using intelligent hydroponics.</string>
+    <string name="termsPolicy">I agree with the Terms of Service &amp; Privacy Policy</string>
+    <string name="haveAccount">Have an Account? Log in</string>
+
+    <!-- Alert Strings -->
+    <string name="alert_water_title">Water Alert</string>
+    <string name="alert_water_overflow_msg">Water is overflowing!</string>
+    <string name="alert_water_low_msg">Water is too low!</string>
+    <string name="alert_temp_title">Temperature</string>
+    <string name="alert_temp_high_msg">Temperature is too high!</string>
+    <string name="alert_temp_low_msg">Temperature is too cold!</string>
+    <string name="alert_humid_title">Humidity</string>
+    <string name="alert_humid_high_msg">Humidity is too high!</string>
+    <string name="alert_humid_low_msg">Humidity is too low!</string>
+    <string name="alert_ph_title">pH Level</string>
+    <string name="alert_ph_acidic_msg">Water is too acidic!</string>
+    <string name="alert_ph_alkaline_msg">Water is too alkaline!</string>
+
+    <!-- Notifications UI -->
+    <string name="no_active_alerts">No active alerts</string>
+    <string name="youre_all_caught_up">You\'re all caught up!</string>
+    <string name="unread">Unread</string>
+    <string name="read">Read</string>
+    <string name="notification_history">Notification History</string>
+    <string name="stay_informed_title">Stay Informed</string>
+    <string name="stay_informed_desc">Keep your system running smoothly. You\'ll see alerts here when something needs your attention.</string>
+    <string name="clear_read">Clear Read</string>
+
+
+    <!-- Password and Security -->
+    <string name="password_and_security_title">Password and Security</string>
+    <string name="login_and_recovery_title">Login and recovery</string>
+    <string name="security_desc">Manage your password, login preferences and recovery methods</string>
+    <string name="change_email_label">Change Email</string>
+    <string name="change_password_label">Change Password</string>
+    <string name="two_way_auth_label">Two-way Authentication</string>
+
+    <!-- Greenhouse -->
+    <string name="greenhouse_title">Greenhouse</string>
+    <string name="greenhouse_connection_title">Greenhouse Connection</string>
+    <string name="greenhouse_desc">Manage your greenhouse connection using the access code provided by your administrator.</string>
+    <string name="connect_greenhouse_label">Connect Greenhouse</string>
+    <string name="greenhouse_info_label">Greenhouse Info</string>
+    <string name="leave_greenhouse_label">Leave Greenhouse</string>
+
+    <!-- Change Email -->
+    <string name="change_email_title">Change Email</string>
+    <string name="change_email_desc">Your password must be at least 6 characters and should include a combination of numbers, letters and special characters</string>
+    <string name="email_hint">Email</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_desc">Your password must be at least 6 characters and should include a combination of numbers, letters and special characters</string>
+    <string name="current_password_hint">Current Password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="retype_password_hint">Re-type Password</string>
+    <string name="forgot_password_link">Forgot password?</string>
+    <string name="update_password_btn">Update Password</string>
+
+    <!-- Email Dialog -->
+    <string name="your_email_label">Your email:</string>
+    <string name="email_linked_msg">This email is linked to your account</string>
+
+    <!-- Error/Success Messages -->
+    <string name="err_current_pass_req">Current password is required</string>
+    <string name="err_new_pass_req">New password is required</string>
+    <string name="err_pass_length">Password must be at least 6 characters</string>
+    <string name="err_pass_mismatch">Passwords do not match</string>
+    <string name="err_incorrect_pass">Incorrect current password</string>
+    <string name="msg_updating">Updating...</string>
+    <string name="msg_pass_success">Password updated successfully</string>
+    <string name="success_title">Success!</string>
+    <string name="error_title">Error</string>
+    <string name="default_web_client_id">149456008990-moauoq2t1hiolndedgjpqppl05dtdkq2.apps.googleusercontent.com</string>
+    <string name="splash_title">Let\'s Grow Smarter Together</string>
+    <string name="splash_desc">Hydrowino is here to help you grow healthier lettuce with less effort and better result</string>
+
+    <!-- Growth Details Empty State -->
+    <string name="no_growth_details_title">No Growth Details Yet</string>
+    <string name="no_growth_details_desc">You don’t have any details yet. Start a new planting to begin tracking growth.</string>
+
+    <!-- Plant History Empty State -->
+    <string name="no_history_title">No History Details Yet</string>
+    <string name="no_history_desc">You haven\'t completed any planting batches yet. Finish a harvest to see your history here.</string>
+
+    <string name="growth_tracking">Growth Tracking</string>
+    <string name="view_details">View Details</string>
+    <string name="avg_temp">Avg Temp</string>
+    <string name="avg_ph">Avg pH</string>
+    <string name="avg_humidity">Avg Humidity</string>
+    <string name="avg_growth">Avg Growth</string>
+
+    <!-- Device Fragment Strings -->
+    <string name="mga_device">Devices</string>
+    <string name="devices_desc">Control and monitor your hydroponic system devices.</string>
+    <string name="water_pump">Water Pump</string>
+    <string name="water_pump_desc">Circulates nutrient solution</string>
+    <string name="solution_a">Solution A</string>
+    <string name="solution_a_desc">Calcuim and Nitrogen</string>
+    <string name="solution_b">Solution B</string>
+    <string name="solution_b_desc">Potassium and Magnesium</string>
+    <string name="solution_c">Pump 3</string>
+    <string name="solution_c_desc">Ph Down</string>
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="device_active">Enabled</string>
+    <string name="device_inactive">Not Enabled</string>
+    <string name="all_devices_online">All devices are currently online</string>
+    <string name="all_devices_offline">All devices are currently offline</string>
+    <string name="connect_system_ready">Your system is connected and ready to monitor.</string>
+    <string name="connect_system_prompt">Connect your system to start monitoring and controlling devices.</string>
+    <string name="greeting_hello">Hello, </string>
+
+    <!-- Notifications  Strings -->
+    <string name="active_alerts">Active Alerts</string>
+    <string name="read_all">Read All</string>
+    <string name="alert_tds_title">TDS</string>
+    <string name="alert_tds_high_msg">Nutrient concentration too high!</string>
+    <string name="alert_tds_low_msg">Nutrient concentration too low!</string>
+    <string name="alert_watertemp_title">Water Temperature</string>
+    <string name="alert_watertemp_high_msg">Water is too warm!</string>
+    <string name="alert_watertemp_low_msg">Water is too cold!</string>
+    <string name="alert_recovered_title">Status Recovered</string>
+    <string name="alert_recovered_msg">Return to normal state.</string>
+    <string name="alert_reminder_prefix">[Reminder] </string>
+</resources>

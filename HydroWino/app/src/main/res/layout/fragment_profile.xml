@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"> <!-- leave space for bottom nav -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <!-- Header -->
+
+
+            <!-- Profile Container -->
+            <FrameLayout
+                android:id="@+id/profileContainer"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="80dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_blue_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_placeholder" />
+
+                <!-- Edit Icon -->
+                <ImageView
+                    android:id="@+id/editIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@drawable/green_bg"
+                    android:padding="8dp"
+                    android:src="@drawable/edit_pencil"
+                    app:tint="#FFFFFF" />
+            </FrameLayout>
+
+            <!-- Name -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/app_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profileContainer" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lucasscott3"
+                android:textColor="#6B7280"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+            <TextView
+                android:id="@+id/myPlants"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="15dp"
+                android:text="@string/batch_history"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvEmail" />
+
+            <TextView
+                android:id="@+id/menuNotifications"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Notification_and_Alerts"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/myPlants" />
+
+            <TextView
+                android:id="@+id/menuGrowth"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Growth"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuNotifications" />
+
+            <TextView
+                android:id="@+id/menuGreenhouse"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/greenhouse_title"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuGrowth" />
+
+            <TextView
+                android:id="@+id/menuLanguage"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Language"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuGreenhouse" />
+
+            <TextView
+                android:id="@+id/menuDisplay"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Display"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuLanguage" />
+
+            <TextView
+                android:id="@+id/menuSecurity"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Privacy_and_Security"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuDisplay" />
+
+            <TextView
+                android:id="@+id/menuLogout"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:text="@string/Logout"
+                android:textColor="@color/app_text"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/ic_chevron"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menuSecurity" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

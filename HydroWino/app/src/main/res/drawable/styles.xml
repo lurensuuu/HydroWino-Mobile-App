@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="ShapeAppearance.App.Circle" parent="">
+    <item name="cornerSize">50%</item>
+</style>

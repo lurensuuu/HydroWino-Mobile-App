@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_color">#00AA5B</color>
+    <color name="text_color">#5E5F60</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider_color">#F0F0F0</color>
+    <color name="button_background_inactive">#F5F5F5</color>
+    <color name="button">@color/primary_color</color>
+
+
+    <color name="gray">#DDDDDD</color>
+
+    <!-- ProgressBar Colors -->
+    <color name="normal">#00AA5B</color>
+    <color name="notNormal">#FD807C</color>
+    <color name="aboveNormal">#3B82F6</color>
+
+    <!-- Light Mode -->
+    <color name="cardcolor">#b8ecd3</color>
+    <color name="app_background">#FAFAFA</color>
+    <color name="dialog_background">#FFFFFF</color>
+    <color name="app_text">#000000</color>
+    <color name="status_bar_color">#FFFFFF</color>
+
+    <color name="recommendation_text">#1E8449</color>
+    <color name="recommendation_icon">#22C47A</color>
+    <color name="recommendation_card_bg">#FFFFFF</color>
+    <color name="recommendation_button_bg">#E8F8EF</color>
+
+    <color name="status_improved_text">#1E8449</color>
+    <color name="status_improved_bg">#E8F8EF</color>
+    <color name="status_improved_icon">#22C47A</color>
+
+    <color name="status_declined_text">#922B21</color>
+    <color name="status_declined_bg">#FDEDEC</color>
+    <color name="status_declined_icon">#E74C3C</color>
+
+    <color name="status_stable_text">#5E5F60</color>
+    <color name="status_stable_bg">#F5F5F5</color>
+    <color name="status_stable_icon">#9E9E9E</color>
+
+    <color name="cause_label">#566573</color>
+    <color name="cause_value">#2C3E50</color>
+
+    <color name="progress_background">#E6E6E6</color>
+
+    <!-- Empty State Colors -->
+    <color name="empty_state_title">#111827</color>
+    <color name="empty_state_desc">#6B7280</color>
+
+    <!-- Switch Color -->
+    <color name="switch_thumb">#4CAF50</color> <!-- Green when ON -->
+    <color name="switch_track">#BDBDBD</color> <!-- Gray when OFF -->
+
+</resources>

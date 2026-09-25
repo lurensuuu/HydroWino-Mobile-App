@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HydroWino</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nutrients">Mga Nutrisyon</string>
+
+    <string name="Language">Wika</string>
+    <string name="my_Plants">Aking mga halaman</string>
+    <string name="batch_history">Kasaysayan ng Batch</string>
+    <string name="Devices_and_Sensor"> Mga Device at Sensor</string>
+    <string name="Notification_and_Alerts"> Notification at Alerto</string>
+    <string name="Growth">Paglago</string>
+    <string name="growth_details">Mga Detalye ng Paglago</string>
+    <string name="week">Linggo</string>
+    <string name="day">Araw</string>
+    <string name="Display">Display</string>
+    <string name="Privacy_and_Security">Pribado at Seguridad</string>
+    <string name="Logout">Mag-Logout</string>
+    <string name="water">Antas ng Tubig</string>
+    <string name="water_temp">Temperatura ng Tubig</string>
+    <string name="tds">Kabuuang Natunaw na Solid</string>
+    <string name="Temperature">Temperatura ng Kwarto</string>
+    <string name="Humidity">Halumigmig</string>
+    <string name="PH_Level">Antas ng pH</string>
+    <string name="loginquote">Lumaking mas matalino. Magtanim nang mas mahusay. Mag-ani nang mahusay.</string>
+    <string name="ForgotPassword">Nakalimutan ang Password?</string>
+    <string name="JoinUs">Wala pang account? Sumali sa amin</string>
+    <string name="invalid_email_password">Maling Email o Password</string>
+    <string name="email_not_verified">Mangyaring i-verify muna ang iyong email. Tignan ang iyong Email.</string>
+
+    <!-- Register -->
+    <string name="regQuote">Tuklasin ang HydroWino—subaybayan, pamahalaan, at magpalago ng mas malulusog na halaman gamit ang matalinong hydroponics.</string>
+    <string name="termsPolicy">Sumasang-ayon ako sa Mga Tuntunin ng Serbisyo at Patakaran sa Privacy</string>
+    <string name="haveAccount">Meron ng Account? Mag-log in</string>
+
+
+    <!-- Password and Security -->
+    <string name="password_and_security_title">Password at Seguridad</string>
+    <string name="login_and_recovery_title">Login at pagbawi</string>
+    <string name="security_desc">Pamahalaan ang iyong password, mga kagustuhan sa pag-login at mga paraan ng pagbawi</string>
+    <string name="change_email_label">Palitan ang Email</string>
+    <string name="change_password_label">Palitan ang Password</string>
+    <string name="two_way_auth_label">Two-way na Pagpapatunay</string>
+
+    <!-- Greenhouse -->
+    <string name="greenhouse_title">Greenhouse</string>
+    <string name="greenhouse_connection_title">Koneksyon sa Greenhouse</string>
+    <string name="greenhouse_desc">Pamahalaan ang iyong koneksyon sa greenhouse gamit ang access code na ibinigay ng iyong administrator.</string>
+    <string name="connect_greenhouse_label">Kumonekta sa Greenhouse</string>
+    <string name="greenhouse_info_label">Impormasyon ng Greenhouse</string>
+    <string name="leave_greenhouse_label">Umalis sa Greenhouse</string>
+
+    <!-- Change Email -->
+    <string name="change_email_title">Palitan ang Email</string>
+    <string name="change_email_desc">Ang iyong password ay dapat na hindi bababa sa 6 na character at dapat magsama ng kumbinasyon ng mga numero, titik at mga espesyal na character</string>
+    <string name="email_hint">Email</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">Palitan ang Password</string>
+    <string name="change_password_desc">Ang iyong password ay dapat na hindi bababa sa 6 na character at dapat magsama ng kumbinasyon ng mga numero, titik at mga espesyal na character</string>
+    <string name="current_password_hint">Kasalukuyang Password</string>
+    <string name="new_password_hint">Bagong Password</string>
+    <string name="retype_password_hint">I-type muli ang Password</string>
+    <string name="forgot_password_link">Nakalimutan ang password?</string>
+    <string name="update_password_btn">I-update ang Password</string>
+
+    <!-- Email Dialog -->
+    <string name="your_email_label">Ang iyong email:</string>
+    <string name="email_linked_msg">Ang email na ito ay naka-link sa iyong account</string>
+
+    <!-- Error/Success Messages -->
+    <string name="err_current_pass_req">Kailangan ang kasalukuyang password</string>
+    <string name="err_new_pass_req">Kailangan ang bagong password</string>
+    <string name="err_pass_length">Ang password ay dapat na hindi bababa sa 6 na character</string>
+    <string name="err_pass_mismatch">Hindi tumutugma ang mga password</string>
+    <string name="err_incorrect_pass">Maling kasalukuyang password</string>
+    <string name="msg_updating">Nag-a-update...</string>
+    <string name="msg_pass_success">Matagumpay na na-update ang password</string>
+    <string name="success_title">Tagumpay!</string>
+    <string name="error_title">Error</string>
+    <string name="splash_title">Sabay tayong lumaki nang mas matalino</string>
+    <string name="splash_desc">Ang Hydrowino ay narito upang tulungan kang magpalago ng mas malusog na lettuce nang may mas kaunting pagsisikap at mas mahusay na resulta</string>
+
+    <!-- Growth Details Empty State -->
+    <string name="no_growth_details_title">Wala Pang Detalye ng Paglago</string>
+    <string name="no_growth_details_desc">Wala pang datos. Magsimula ng bagong pagtatanim para masubaybayan ang paglaki.</string>
+
+    <!-- Plant History Empty State -->
+    <string name="no_history_title">Wala Pang Kasaysayan ng Pag-aani</string>
+    <string name="no_history_desc">Wala ka pang nakumpletong batch ng pagtatanim. Tapusin ang isang pag-aani para makita ang iyong kasaysayan dito.</string>
+
+    <string name="growth_tracking">Pagsubaybay sa Paglago</string>
+    <string name="view_details">Tingnan ang Detalye</string>
+    <string name="avg_temp">Ave Temp</string>
+    <string name="avg_ph">Ave pH</string>
+    <string name="avg_humidity">Ave Humidity</string>
+    <string name="avg_growth">Ave Paglago</string>
+
+    <!-- Device Fragment Strings -->
+    <string name="mga_device">Mga Device</string>
+    <string name="devices_desc">Kontrolin at subaybayan ang iyong mga hydroponic system device.</string>
+    <string name="water_pump">Water Pump</string>
+    <string name="water_pump_desc">Nagpapadaloy ng nutrient solution</string>
+    <string name="solution_a">Solusyon A</string>
+    <string name="solution_a_desc">Calcuim and Nitrogen</string>
+    <string name="solution_b">Solusyon B</string>
+    <string name="solution_b_desc">Potassium and Magnesium</string>
+    <string name="solution_c">Pump 3</string>
+    <string name="solution_c_desc">Ph Down</string>
+    <string name="status_online">KONEKTADO</string>
+    <string name="status_offline">WALANG KONEKSYON</string>
+    <string name="device_active">Active</string>
+    <string name="device_inactive">Not Active</string>
+    <string name="all_devices_online">Ang lahat ng device ay kasalukuyang online</string>
+    <string name="all_devices_offline">Ang lahat ng device ay kasalukuyang offline</string>
+    <string name="connect_system_ready">Ang iyong system ay konektado at handa nang mag-monitor.</string>
+    <string name="connect_system_prompt">Ikonekta ang iyong system upang simulan ang pag-monitor at pagkontrol sa mga device.</string>
+    <string name="greeting_hello">Kumusta, </string>
+
+    <!-- Notifications Strings -->
+    <string name="active_alerts">Aktibong Alerto</string>
+    <string name="read_all">Basahin Lahat</string>
+
+    <string name="alert_recovered_title">Maayos na</string>
+    <string name="alert_recovered_msg">Bumalik na sa normal na estado.</string>
+    <string name="alert_reminder_prefix">[Paalala] </string>
+
+    <!-- Alert Strings -->
+    <string name="alert_water_title">Alerto sa Tubig</string>
+    <string name="alert_water_overflow_msg">Umapaw na ang tubig!</string>
+    <string name="alert_water_low_msg">Mababa ang antas ng tubig!</string>
+
+    <string name="alert_temp_title">Temperatura</string>
+    <string name="alert_temp_high_msg">Masyadong mataas ang temperatura!</string>
+    <string name="alert_temp_low_msg">Masyadong malamig ang temperatura!</string>
+
+    <string name="alert_humid_title">Humidity</string>
+    <string name="alert_humid_high_msg">Masyadong mataas ang humidity!</string>
+    <string name="alert_humid_low_msg">Masyadong mababa ang humidity!</string>
+
+    <string name="alert_ph_title">pH Level</string>
+    <string name="alert_ph_acidic_msg">Mababa ang pH ng tubig!</string>
+    <string name="alert_ph_alkaline_msg">Mataas ang pH ng tubig!</string>
+
+    <string name="alert_tds_title">TDS</string>
+    <string name="alert_tds_high_msg">Masyadong mataas ang konsentrasyon ng sustansya!</string>
+    <string name="alert_tds_low_msg">Masyadong mababa ang konsentrasyon ng sustansya!</string>
+
+    <string name="alert_watertemp_title">Temp ng Tubig</string>
+    <string name="alert_watertemp_high_msg">Masyadong mainit ang tubig!</string>
+    <string name="alert_watertemp_low_msg">Masyadong malamig ang tubig!</string>
+
+
+    <!-- Notifications UI -->
+    <string name="no_active_alerts">Walang aktibong alerto</string>
+    <string name="youre_all_caught_up">Ayos na ang lahat!</string>
+    <string name="unread">Hindi pa nababasa</string>
+    <string name="read">Nabasa na</string>
+    <string name="notification_history">Notification History</string>
+    <string name="stay_informed_title">Manatiling Updated</string>
+    <string name="stay_informed_desc">Panatilihing maayos ang iyong system. Makakakita ka ng mga alerto rito kapag may kailangang bigyang-pansin.</string>
+    <string name="clear_read">Clear All</string>
+</resources>
